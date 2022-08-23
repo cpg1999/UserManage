@@ -15,7 +15,9 @@
           <div class="name">{{ item }}</div>
         </template>
       </el-autocomplete>
-      <el-button @click="handlerSearch">搜索</el-button>
+      <el-button @click="handlerSearch" style="margin-left: 5px"
+        >搜索</el-button
+      >
       <el-button class="revoke" @click="handlerRevoke">撤销</el-button>
       <el-table
         :data="tableData"
